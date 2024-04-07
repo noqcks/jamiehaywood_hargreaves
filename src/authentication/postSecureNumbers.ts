@@ -8,7 +8,8 @@ export const postSecureNumbers = async (
 ) => {
   let [secureNo1, secureNo2, secureNo3] = secureNumbers;
   await request.post('https://online.hl.co.uk/my-accounts/login-step-two', {
-    form: {
+    form: true,
+    json: {
       hl_vt: hl_vt,
       'online-password-verification': password,
       'secure-number[1]': secureNumber[secureNo1],
