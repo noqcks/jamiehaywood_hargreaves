@@ -8,7 +8,7 @@ export const postUsernameDob = async (
   const { body } = await request.post(
     'https://online.hl.co.uk/my-accounts/login-step-one',
     {
-      form: {
+      json: {
         hl_vt: hl_vt,
         username: username,
         'date-of-birth': dateOfBirth,
