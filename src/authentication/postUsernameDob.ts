@@ -8,11 +8,11 @@ export const postUsernameDob = async (
   const { body } = await request.post(
     'https://online.hl.co.uk/my-accounts/login-step-one',
     {
-      json: {
+      json: JSON.stringify({
         hl_vt: hl_vt,
         username: username,
         'date-of-birth': dateOfBirth,
-      },
+      }),
       followRedirect: false,
     }
   );
