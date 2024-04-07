@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "got": "^11.0.0",
+    "got": "^14.2.1",
     "tough-cookie": "^4.0.0"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@types/cheerio": "^0.22.21",
-    "@types/got": "^9.6.11",
+    "@types/got": "^9.6.12",
     "@types/jest": "latest",
     "dotenv": "latest",
     "husky": "^4.3.0",
