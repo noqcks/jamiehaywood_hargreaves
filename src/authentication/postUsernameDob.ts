@@ -9,8 +9,8 @@ export const postUsernameDob = async (
     'https://online.hl.co.uk/my-accounts/login-step-one',
     {
       json: {
-        hl_vt: hl_vt,
-        username: username,
+        hl_vt,
+        username,
         'date-of-birth': dateOfBirth,
       },
       followRedirect: false,
